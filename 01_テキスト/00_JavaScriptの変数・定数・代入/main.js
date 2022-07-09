@@ -30,6 +30,3 @@ console.log(teisu) // => 42
 // このような書き方をキャメルケースという（大文字がキャメル＝ラクダのこぶにみえることから）
 // eslint-disable-next-line no-unused-vars
 let camelCase // camel + case
-
-const fruits = ["りんご", "みかん", "パイナップル"]
-localStorage.fruits = "りんご"
