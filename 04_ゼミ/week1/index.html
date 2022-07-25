@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>WebExpertコーステンプレート</title>
+  </head>
+
+  <body>
+    <div id="element">🌟わたちゃんの趣味は？🌟</div>
+
+    <button id="button1">ダイエット</button>
+    <button id="button2">ランニング</button>
+    <button id="button3">筋トレ</button>
+
+    <script>
+      const element = document.getElementById("element")
+      console.dir(element)
+      // element.textContent = "🌟わたちゃんの趣味は？🌟";
+
+      const button1 = document.getElementById("button1")
+      const alertMessage = function () {
+        element.textContent = "正解！"
+      }
+      button.onclick = alertMessage
+
+      const button2 = document.getElementById("button2")
+      const alertMessage = function () {
+        alert("ざんねん！")
+      }
+      button.onclick = alertMessage
+
+      const button3 = document.getElementById("button3")
+      const alertMessage = function () {
+        alert("ざんねん！")
+      }
+      button.onclick = alertMessage
+    </script>
+  </body>
+</html>
