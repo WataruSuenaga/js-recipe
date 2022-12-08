@@ -1,10 +1,9 @@
 const memoInput = document.getElementById("memo-input")
 const addButton = document.getElementById("add-button")
 
-const logValue = function (e) {
-  console.log(e.target.value)
+const memomo = function () {
+  console.dir(memoInput)
+  console.log(memoInput)
 }
 
-console.dir(memoInput)
-
-addButton.onclick = logValue
+addButton.onclick = memomo
